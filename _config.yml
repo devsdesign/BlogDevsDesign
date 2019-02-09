@@ -1,2 +1,4 @@
 name: DevsDesign
 markdown: kramdown
+
+permalink: /:year/:month/:day/:title
