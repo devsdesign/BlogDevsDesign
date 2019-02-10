@@ -15,6 +15,7 @@ sitemap:
 			<h2 class="date"><info datetime="{{ page.date }}">
 				{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
 			</info></h2>
+			{% include share-bar.html %}
 			<!-- Post content -->
 			<div class="notebody">
 				{{ content }}
@@ -23,7 +24,7 @@ sitemap:
 			<div class="noteinfo">
 			<!-- include some categories and tags maybe? -->
 			</div>
-
+			{% include share-bar.html %}
 			<hr>
 
 			<!-- Post comments -->
