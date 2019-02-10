@@ -9323,6 +9323,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 /* All buttons */
 .share-buttons {
+  font-size:10px;
 }
 
 /* Each button */
