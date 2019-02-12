@@ -11,10 +11,10 @@ sitemap:
 <div class="notes">
 		<div class="note single">
 			<h1 class="title" style="font-size:2.5rem">{{ page.title }}</h1>
-			
+			<br />
 			<div class="date"><info datetime="{{ page.date }}">
-				{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
-			</info></div><br />
+				Posted on {{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
+			</info></div><br /><br />
 			{% include share-bar.html %}
 			<br />
 			<!-- Post content -->
